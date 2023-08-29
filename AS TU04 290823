@@ -1,0 +1,4 @@
+ShakespeareBorn=1564
+MyAge=int(input("What year were you born in?"))
+AgeDifference=MyAge - ShakespeareBorn
+print("Shakespeare is",AgeDifference,"years older than you!")
