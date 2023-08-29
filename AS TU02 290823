@@ -1,0 +1,2 @@
+MyName=input("What's your name?")
+print('How are you,', MyName,'?')
