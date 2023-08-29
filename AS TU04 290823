@@ -1,4 +1,10 @@
 ShakespeareBorn=1564
-MyAge=int(input("What year were you born in?"))
-AgeDifference=MyAge - ShakespeareBorn
-print("Shakespeare is",AgeDifference,"years older than you!")
+MyAge1=int(input("What year were you born in?"))
+AgeDifference1=MyAge1 - ShakespeareBorn
+print("Shakespeare is",AgeDifference1,"years older than you!")
+
+CelebrityName=input("Who's your favourite celebrity?")
+CelebrityBorn=int(input("What year is your favourite celebrity born in?"))
+MyAge2=int(input("What year were you born in?"))
+AgeDifference2=MyAge2 - CelebrityBorn
+print(CelebrityName,"is",AgeDifference2,"years older than you!")
