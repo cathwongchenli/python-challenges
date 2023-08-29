@@ -1,1 +1,2 @@
 print("chancellor>sultan")
+print(23*8)
