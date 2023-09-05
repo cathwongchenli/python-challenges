@@ -1,0 +1,8 @@
+CatherinesHeight = 170
+YourHeight = int(input("How tall are you in centimetres?"))
+if CatherinesHeight > YourHeight:
+    print("You're short.")
+elif CatherinesHeight == YourHeight:
+    print("WOW! We're the same height!")
+elif CatherinesHeight < YourHeight:
+    print("You must have tall parents...")
