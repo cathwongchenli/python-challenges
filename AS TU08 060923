@@ -1,0 +1,12 @@
+#exercise 1
+while True:
+    subject = input("What's you're favourite subject?\n")
+    if subject in ["CS","Cs","cs","Computer Science", "Computer science","computer science"]:
+        print("Right answer!")
+        break
+
+#exercise 2: Change the values of the while loop for a float rather than an int.
+number = 0
+while number < 15.1 or number > 20.1 :
+    print("Please enter a number between 15.1 and 20.1")
+    number = float(input("enter a number:"))
