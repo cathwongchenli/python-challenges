@@ -1,11 +1,11 @@
-hr = input("What hour is it?")
-mins = input("What minuite is it?")
-ampm = input("Is it AM/PM right now.")
+hr = int(input("What hour is it?\n"))
+mins = int(input("What minuite is it?\n"))
+ampm = input("Is it AM/PM right now.\n")
 
 if ampm in ["am","Am","AM"]:
-    if hr in ["12"]:
-        print("It is","00"+mins)
+    if hr == 12:
+        print("It is 00",mins)
     else:
         print("It is",hr+mins)
 else:
-    print("It is",hr+mins)
+    print("It is",(12+hr),mins)
