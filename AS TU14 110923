@@ -1,0 +1,11 @@
+#exercise 1
+MyString = "abcdef"
+print(MyString)
+
+#exercise 2
+variable = "catherine"
+print(variable)
+print(variable[0:6])
+print(variable[0:8:2])
+print(variable[-1:-5:-1])
+print(variable[2::])
