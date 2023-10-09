@@ -1,0 +1,12 @@
+#exercise 1
+
+MyList = [1,2,3,4,5,6,7,8,9,10]
+print(*MyList[0:4],sep=",")
+
+#exercise 2
+
+Characters = ["Mario","Princess Peach","Luigi","Ghost","Captain MacTavish"]
+NewChar = input("Add your own video game character.\n")
+Characters.append(NewChar)
+Characters.sort()
+print(*Characters[0:7],sep=", ")
